@@ -1,0 +1,30 @@
+.bigbutton{
+    background: rgb(228, 0, 228);
+    //border-style: outset;
+    border-bottom: 0.7rem solid darken( purple, 10%);
+    width: 100%;
+    //border: 15px solid green;
+    padding: 1.6rem;
+    margin-bottom: 1.6rem;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.bigbutton:disabled{
+    opacity: .5;
+}
+
+.button{
+    background: rgb(228, 0, 228);
+    border-bottom: 0.4rem solid darken( rgb(228, 0, 228), 10%);
+    font-size: 2.2rem;
+    color: white;
+    padding: 1.2rem;    
+}
+.button--link{
+    color:rgb(161, 159, 159);
+    background: none;
+    padding: none;
+    border: none;
+}
